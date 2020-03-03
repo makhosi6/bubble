@@ -1,5 +1,6 @@
-/* css */
+/* css import*/
 
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
 body {
     padding: 40px;
 }
@@ -27,4 +28,12 @@ body {
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
+}
+
+.box :first-child {
+    font-family: 'Roboto', sans-serif;
+}
+
+.box :last-child {
+    font-family: 'Fredoka One', cursive;
 }
