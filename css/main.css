@@ -1,0 +1,30 @@
+/* css */
+
+body {
+    padding: 40px;
+}
+
+.box {
+    position: relative;
+    background-color: rgb(131, 164, 194);
+    width: 200px;
+    padding: 20px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+.box .arrow {
+    transform: rotate(45deg);
+    padding: 15px;
+    background-color: rgb(131, 164, 194);
+    position: absolute;
+    left: -15px;
+    top: 30px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
